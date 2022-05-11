@@ -1,0 +1,39 @@
+{
+  "name": "@nononoyeah/ffmpeg-static",
+  "version": "1.0.1",
+  "description": "@nononoyeah/ffmpeg-static",
+  "main": "index.js",
+  "scripts": {
+    "install": "node install.js",
+    "test": "node test.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nononoyeah/-ffmpeg-static.git"
+  },
+  "keywords": [
+    "ffmpeg",
+    "ffmpeg-static",
+    "nononoyeah"
+  ],
+  "files": [
+    "index.js",
+    "install.js"
+  ],
+  "author": "nononoyeah",
+  "license": "ISC",
+  "homepage": "https://github.com/nononoyeah/-ffmpeg-static",
+  "dependencies": {
+    "@derhuerst/http-basic": "^8.2.2",
+    "progress": "^2.0.3"
+  },
+  "ffmpeg-static": {
+    "binary-release-tag": "b4.4.1",
+    "binary-release-name": "4.4.1",
+    "binary-url": "https://cdn.npmmirror.com/binaries/ffmpeg-static"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0"
+  }
+}
