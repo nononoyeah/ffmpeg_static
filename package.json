@@ -1,6 +1,6 @@
 {
   "name": "@nononoyeah/ffmpeg-static",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "@nononoyeah/ffmpeg-static",
   "main": "index.js",
   "scripts": {
